@@ -3,9 +3,9 @@
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow?logo=python)
-![Alibaba Cloud](https://img.shields.io/badge/Alibaba%20Cloud-International-orange?logo=alibabacloud)
+![阿里云](https://www.aliyun.com/)
 
-一个仅为自定义 **Alpine** 系统准备的 **阿里云国际版（Alibaba Cloud International）** 设计的 **CDT 公网流量监控 + 自动止损工具**，  
+一个仅为自定义 **Alpine** 系统准备的 **阿里云国内版** 设计的 **CDT 公网流量监控 + 自动止损工具**，  
 在流量或账单即将失控前 **强制关机**，真正帮你守住钱包 💰。
 
 ---
@@ -30,7 +30,7 @@
 
 ### 2️⃣ 阿里云 RAM 权限（⚠️不要使用主账号）
 
-* 👉 **[创建用户并赋权](https://ram.console.alibabacloud.com/users)**
+* 👉 **[创建用户并赋权](https://ram.console.aliyun.com/users)**
 
 需要授予以下权限：
 
@@ -46,7 +46,7 @@
 
 ### 初始化步骤
 
-1. 在本仓库中找到并打开 * 👉 **[`vnc.sh`](https://github.com/10000ge10000/aliyun_monitor/blob/main/vnc.sh)**
+1. 在本仓库中找到并打开 * 👉 **[`vnc.sh`](https://github.com/chunk2333/aliyun_monitor/blob/main/vnc.sh)**
 2. **复制 `vnc.sh` 中的全部内容**
 3. 登录阿里云实例的 **VNC 控制台**
 4. 将代码 **完整粘贴到 VNC 界面并回车执行**
@@ -79,7 +79,7 @@
 2. 使用 **root 用户** 登录 Alpine 后，下载并执行脚本：
 
 ```bash
-wget -O install2.sh https://raw.githubusercontent.com/10000ge10000/aliyun_monitor/main/install2.sh
+wget -O install2.sh https://raw.githubusercontent.com/chunk2333/aliyun_monitor/main/install2.sh
 chmod +x install2.sh
 ./install2.sh
 ````
@@ -100,7 +100,7 @@ chmod +x install2.sh
 使用 **root 用户** 执行：
 
 ```bash
-wget -N https://raw.githubusercontent.com/10000ge10000/aliyun_monitor/main/install.sh \
+wget -N https://raw.githubusercontent.com/chunk2333/aliyun_monitor/main/install.sh \
 && chmod +x install.sh \
 && ./install.sh
 ```
@@ -117,7 +117,7 @@ wget -N https://raw.githubusercontent.com/10000ge10000/aliyun_monitor/main/insta
 ## 🗑️ 卸载
 
 ```bash
-wget -N https://raw.githubusercontent.com/10000ge10000/aliyun_monitor/main/uninstall.sh \
+wget -N https://raw.githubusercontent.com/chunk2333/aliyun_monitor/main/uninstall.sh \
 && chmod +x uninstall.sh \
 && ./uninstall.sh
 ```
