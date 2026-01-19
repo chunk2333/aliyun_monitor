@@ -9,7 +9,7 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 
 # GitHub 仓库 raw 地址
-REPO_URL="https://raw.githubusercontent.com/10000ge10000/aliyun_monitor/main/src"
+REPO_URL="https://raw.githubusercontent.com/chunk2333/aliyun_monitor/main/src"
 
 echo -e "${BLUE}=============================================================${NC}"
 echo -e "${BLUE}       阿里云 CDT 流量监控 & 日报 一键部署脚本 (交互版)      ${NC}"
@@ -65,7 +65,7 @@ read -p "请输入 Telegram Chat ID: " TG_ID
 
 echo -e "\n${BLUE}### 配置阿里云 RAM ###${NC}"
 echo -e "请前往阿里云 RAM 控制台创建用户："
-echo -e "🔗 地址: ${YELLOW}https://ram.console.alibabacloud.com/users${NC}"
+echo -e "🔗 地址: ${YELLOW}https://ram.console.aliyun.com/users${NC}"
 echo -e "⚠️  权限要求: AliyunECSFullAccess, AliyunCDTFullAccess, AliyunBSSReadOnlyAccess"
 
 USERS_JSON=""
