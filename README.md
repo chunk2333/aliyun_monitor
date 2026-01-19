@@ -3,7 +3,7 @@
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow?logo=python)
-![阿里云](https://www.aliyun.com/)
+![阿里云]([https://www.aliyun.com/](https://img.shields.io/badge/Alibaba%20Cloud-International-orange?logo=alibabacloud))
 
 一个仅为自定义 **Alpine** 系统准备的 **阿里云国内版** 设计的 **CDT 公网流量监控 + 自动止损工具**，  
 在流量或账单即将失控前 **强制关机**，真正帮你守住钱包 💰。
