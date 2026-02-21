@@ -20,7 +20,7 @@ iface lo inet loopback
 auto eth0
 iface eth0 inet dhcp
 "
-DNSOPTS="-d 223.5.5.5 8.8.8.8"
+DNSOPTS="-d 8.8.8.8 1.1.1.1"
 TIMEZONEOPTS="-z PRC"
 PROXYOPTS="none"
 APKREPOSOPTS="$REPO_URL"
